@@ -1,0 +1,7 @@
+對應網址：
+
+https://art.rainforestretail.com.tw/art_ftp/web/年份/平台/需求單號/檔名
+
+範例：
+
+https://art.rainforestretail.com.tw/art_ftp/web/2024/momo/2406382/2407262/main.html

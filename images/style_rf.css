@@ -1,0 +1,206 @@
+@charset "big5";
+/* CSS Document */
+body {background: #ffdddd!important; margin: 0 auto!important; /*text-align: center;*/}
+.Area_top .momologo { left: 40px!important; }
+.Area_top .momologo a:hover{ transform: scale(1)!important;}
+.Area_top .momologo a {
+    display: visible;
+    width: 200px;
+    height: 30px;
+    background: url("momo_logo.png") no-repeat;
+}
+#particles-js { position: fixed; z-index: 0; mix-blend-mode: plus-lighter; filter: blur(3px);}
+
+.momostyle_bg { 
+	background-image:url("edm_bg.jpg");
+	background-position:top center;
+	background-repeat: no-repeat;  
+    max-width: 2000px;
+    margin: auto;
+    overflow: hidden;
+    font-size: 0;
+    display: block;
+
+}
+
+.js-REG_regImg_pc { height: auto!important;}
+
+/*.momostyle_edm_nav {max-width: 2000px; right: 180px; margin: auto; position: absolute;}
+.momostyle_edm_link { width: 100%; position: fixed; top: 100px; margin: auto; z-index: 3;}
+.momostyle_edm_link ul {width: 170px; right: 0px; padding: 0; margin: 0;}
+.momostyle_edm_link ul li { list-style: none; margin: 0;padding: 0; transition: all .1s .1s;}
+.momostyle_edm_link ul li img { width: 100%;}
+.momostyle_edm_link ul li a {display: block;}
+.momostyle_edm_link ul li a:hover {opacity: 0.8; transition: all .3s;}*/
+
+
+a img,li {
+	transform: translateY(0%);
+	transition: all .1s .1s;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+}
+
+.momostyle_edm_all a img:hover{
+	transform: translateY(-2.5%);
+	transition: all .3s;
+    z-index: 2;
+    filter: drop-shadow(5px 10px 5px rgba(0, 0, 0, 0.7));
+}
+
+
+.momostyle_edm_coupon a img:hover,
+.momostyle_edm_main a img:hover{
+	transform: translateY(-2.5%);
+	transition: all .3s;
+    z-index: 2;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+}
+
+
+.momostyle_edm_kv { width: 100%; margin: auto; position: relative; background-color: #ffdddd;}
+.momostyle_edm_kv > img,
+.momostyle_edm_kv > span { display: block; position: absolute; margin: auto;}
+
+.momostyle_edm_logo { max-width: 1220px; height: 130px; margin: auto; position: relative;}
+.momostyle_edm_logo img {max-width: 96%; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto;}
+
+.momostyle_edm_navbar {width: 100%; background: #000000; margin: 0; padding: 0;} 
+.momostyle_edm_navbar ul { max-width: 1220px; margin: 0 auto; padding: 0; font-size: 0;}
+.momostyle_edm_navbar ul li { width:calc(100% / 7); display: inline-block; text-align: center; }
+.momostyle_edm_navbar ul li a { font-size: 16px; color:#ffffff; line-height: 50px; }
+.Area_danji[data-danji-num="1"] ul li .content {display: none;}
+.Area_danji .warningTxt {display: none;}
+
+
+/*KV½ü¼½*/
+.KV_PD {transform: translate(0%,0%); width: 100%;  position: absolute; left: auto; right: auto; top:0%; bottom: auto; margin: auto;}
+.KV_PD img {width: 100%!important;}
+/*KV½ü¼½*/
+
+.variable01 {
+    width: 100%!important;
+    margin: 0 auto 0 auto!important;
+}
+
+.variable01 img{
+    width: 100%;
+}
+
+.variable01 a img:hover{
+	transform: translateY(0%);
+	transition: all .1s .1s;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+}
+
+
+
+
+.momostyle_edm_all { width: 1220px; margin: auto; text-align: center; font-size: 0;}
+.momostyle_edm_all ul {
+    width: 100%; margin: 0; padding: 0; font-size: 0; background-position: top center;
+    background-size: cover; background-repeat: no-repeat; position: relative;}
+.momostyle_edm_all ul li {padding: 0; margin: auto; display: inline-block; list-style: none;} 
+.momostyle_edm_all ul li img {width: 100%;} 
+
+.momostyle_edm_movie { margin: 4% auto 0 auto;}
+.momostyle_edm_movie ul { width: 100%; margin: 2% auto; padding: 0; font-size: 0; background-color: #dbd5f1;}
+.momostyle_edm_movie ul li { width:calc(100% / 2 - 2%); margin: 0% 1%; padding: 0; list-style: none; display: inline-block; vertical-align: middle; text-align: center;}
+.momostyle_edm_movie ul li:first-child {width:calc(100% / 1 - 0%); margin: 0%; position: relative;}
+.momostyle_edm_movie ul li:first-child div {position:relative; width:100%; height:0px; padding-bottom:56.25%;}
+.momostyle_edm_movie ul li:first-child div iframe {position:absolute; left:0;  width:100%; height:100%; }
+
+.momostyle_edm_movie ul li:nth-child(2) { margin: 1.5% 0.5% 2% 1.5%;}
+.momostyle_edm_movie ul li:nth-child(3) { margin: 1.5% 1.5% 2% 0.5%;}
+
+
+.momostyle_edm_coupon { display: visible;}
+.momostyle_edm_coupon  ul {width: 100%; margin: 0% auto; padding: 0; font-size: 0;}
+.momostyle_edm_coupon  ul li {width:calc(100% / 4 - 1%); display: inline-block; list-style: none; margin:0.5%; padding: 0; vertical-align:middle;}
+
+.main_bar { max-width: 1220px; margin:0 auto; padding-bottom: 0; text-align: center;}
+
+.momostyle_edm_main  ul { width: 100%; padding: 0%; margin:2% 0%; display: inline-block;}
+.momostyle_edm_main > a { display: block; margin: 0 auto;}
+.momostyle_edm_main  ul li{ width: calc(100% / 3 - 1%); margin:0.5%; vertical-align: bottom;}
+.momostyle_edm_main  ul li img { width: 100%;}
+.edm_main_a ul li { width: calc(100% / 2 - 1%); }
+.edm_main_b ul li {}
+
+.momostyle_edm_list { margin:0 auto 2% auto; position: relative; z-index: 0;}
+.momostyle_edm_list ul { width: calc(100% - 4%); padding:2%; margin:0; display: inline-block; background-repeat: no-repeat;}
+.momostyle_edm_list ul li{ width: calc(100% / 3 - 1%); margin:0.5%; vertical-align: bottom;}
+.edm_list_a ul { background-color: #ebca92;}
+.edm_list_b ul { background-color: #ebca92;}
+.edm_list_c ul { background-color: #ebca92;}
+
+
+.edm_list_bn { max-width: 1220px; margin:5% auto 0 auto;}
+.edm_list_bn img { max-width: 100%;}
+
+.momostyle_edm_bn ul { margin:5% auto; padding: 0;}
+.momostyle_edm_bn ul li{ width: calc(100% / 2 - 1%); margin:0.5%;}
+
+
+.momostyle_edm_go { width: 100%;  margin:2% auto; text-align: center; background-color: #c6315c;}
+.momostyle_edm_go ul { max-width: 1220px; margin:0% auto; padding:2% 0; }
+.momostyle_edm_go ul li { width: calc(100% / 1 - 6%); margin:0 3%; }
+.momostyle_edm_go ul li img { max-width: 100%; width: auto;}
+
+
+@media screen and (max-width: 1439px) and (min-width: 768px){
+    .momostyle_edm_nav {display: none;}
+}
+
+@media screen and (max-width:767px){
+.Area_top .momologo {
+    display: none;
+}
+.momostyle_bg { 
+	background-image:url("edm_bg_m.jpg");
+	background-position:top center;
+	background-repeat: no-repeat;
+    max-width: 100%;
+    overflow: hidden;
+    background-size: contain;
+} 
+  
+    
+    
+.momostyle_edm_kv { width: 100%; height:auto;}
+
+
+.momostyle_edm_logo {width: 100%; height: 0; padding-bottom: 12.30%}
+.momostyle_edm_logo img {max-width: 90%;}
+
+.momostyle_edm_navbar {} 
+.momostyle_edm_navbar ul { overflow-y: hidden; justify-content: flex-start; height: 50px; display: flex;}
+.momostyle_edm_navbar ul li { width:auto; display: inline-flex; text-align: center; flex-wrap: nowrap; }
+.momostyle_edm_navbar ul li a {display: inline-flex; white-space: nowrap; font-size: 14px; line-height: 25px; padding: 5px; margin:5px 3px; background-color: #2e2e2e;}
+    
+.momostyle_edm_navbar ul::-webkit-scrollbar { height: 5px; background-color: #000;} 
+.momostyle_edm_navbar ul::-webkit-scrollbar-thumb { background: #666;}
+    
+    
+.Area_danji[data-danji-num="1"] ul li .content {display: none;}
+.Area_danji .warningTxt {display: none;}
+
+.momostyle_edm_all { width: 100%;}
+
+.momostyle_edm_coupon ul {width:calc(100% - 3%); margin: auto 2%;}   
+.momostyle_edm_coupon ul li {width:calc(100% / 3 - 1%);}    
+    
+.momostyle_edm_main { width:calc(100% - 4%); margin: auto 2%;}
+.momostyle_edm_main > a { display: block;}
+
+    
+.momostyle_edm_bn { width:calc(100% - 4%); margin: auto 2%;}
+    
+    
+.momostyle_edm_go ul li:last-child img { max-width: 50%; width: auto;}
+
+
+
+
+    
+    
+}
